@@ -34,7 +34,7 @@ const SingleModal = ({onClose, show, individual, individualDeath, individualDeat
                                 <td>: {singledata.occupation.map((element, index) => <span key={index}>{element}</span>)}</td>
                             </tr>
                             <tr>
-                                <td>Appearance<span>(Episode no.)</span></td>
+                                <td>Appearance<span>(Seaason no.)</span></td>
                                 <td>: {singledata.appearance.map((element, index) => <span key={index}>{element} </span>)}</td>
                             </tr>
                             <tr>
